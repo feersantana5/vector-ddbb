@@ -100,8 +100,8 @@ cd vector-ddbb
 Crear archivo `.env` en la raíz del proyecto:
 
 ```bash
-GOOGLE_API_KEY="AIzaSyDxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-OPENROUTER_API_KEY="sk-or-v1-..." # Opcional
+GOOGLE_API_KEY="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENROUTER_API_KEY="....." # alternativa
 ```
 
 ### 3. Instalar dependencias
@@ -278,31 +278,3 @@ vector-ddbb/
 - **Dimensión embeddings**: 768
 - **Top-K retrieval**: 4-5 documentos
 - **Índice HNSW**: m=16, ef_construct=100
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/amazing-feature`)
-3. Commit tus cambios (`git commit -m 'Add amazing feature'`)
-4. Push a la rama (`git push origin feature/amazing-feature`)
-5. Abre un Pull Request
-
-## 📝 Licencia
-
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
-
-## 👤 Autor
-
-**Fernando Santana** - [@feersantana5](https://github.com/feersantana5)
-
-## 🙏 Agradecimientos
-
-- Dataset: Informe del Mercado de Trabajo de Jóvenes
-- Google AI por Gemini API
-- Qdrant por su excelente base de datos vectorial
-- Comunidades de LangChain y LlamaIndex
-
----
-
-**⭐ Si este proyecto te resulta útil, considera darle una estrella en GitHub!**
